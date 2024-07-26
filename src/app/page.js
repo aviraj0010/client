@@ -120,9 +120,9 @@ export default function Home() {
           {prediction !== null && (
             <div>
               <p>Prediction: {prediction}</p>
-              {prediction === 'Pneumonia' && (
-                <button onClick={handleDownload} className="btn btn-download">Download Your Report</button>
-              )}
+              <button onClick={handleDownload} className="btn btn-download">
+                Download Your Report
+              </button>
             </div>
           )}
           {error && (
