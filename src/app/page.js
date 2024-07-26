@@ -104,7 +104,7 @@ export default function Home() {
   return (
     <div className="form-container">
       <div className="left-side">
-        <Image src="/sample-xray.png" alt="Sample X-ray" width={400} height={400} className="sample-image" />
+        <Image src="/sample-xray1.png" alt="Sample X-ray" width={400} height={400} className="sample-image" />
       </div>
       <div className="right-side">
         <form onSubmit={handleSubmit} className="upload-form">
