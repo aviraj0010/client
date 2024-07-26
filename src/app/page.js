@@ -45,7 +45,7 @@ export default function Home() {
       }
 
       const data = await response.json()
-      setPrediction(data.prediction === 1 ? 'Pneumonia' : 'No Pneumonia')
+      setPrediction(data.prediction === 1 ? 'Pneumonia' : 'Normal')
     } catch (error) {
       setError('An error occurred while processing the prediction.')
     }
