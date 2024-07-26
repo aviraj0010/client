@@ -1,11 +1,161 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.file-input {
-  @apply block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
 }
 
-.btn {
-  @apply px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 90px;
+  object-fit: cover;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h1, form h2 {
+  margin-bottom: 20px;
+}
+
+form input[type="file"] {
+  display: none;
+}
+
+.form-input-label {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form input[type="file"]:focus + .form-input-label,
+.form-input-label:hover {
+  background-color: #005bb5;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+form p {
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  color: #ff4d4d;
+}
+
+.user-info-form {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-info-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-download {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-download:hover {
+  background-color: #005bb5;
 }
