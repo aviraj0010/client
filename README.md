@@ -20,7 +20,7 @@
 
 1. Git Clone Project 
  ```sh
-https://github.com/aviraj0010/python-frontend.git
+https://github.com/aviraj0010/client.git
 ```
 
 2. Packages install
