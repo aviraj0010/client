@@ -77,10 +77,17 @@ export default function Home() {
 
     // Create PDF document definition
     const docDefinition = {
-      content: [
+       content: [
         {
-          text: `Patient Report\nName: ${name}\nMobile: ${mobile}\nPrediction: ${prediction}`,
-          margin: [0, 20],
+          text: 'Patient Report',
+          margin: [0, 40],
+          alignment: 'center',
+          fontSize: 18,
+          bold: true,
+        },
+        {
+          text: `Name: ${name}\nMobile: ${mobile}\nPrediction: ${prediction}`,
+          margin: [0, 10],
         },
         // Only include the image if it's available
         ...(file ? [{
