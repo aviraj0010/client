@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  About The Project
 
-## Getting Started
 
-First, run the development server:
+![PneumoSeekers](https://pneumoniadetector.netlify.app/_next/image?url=%2Fsample-xray1.png&w=640&q=75)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* PneumoSeekers is a web application built in Machine learning.It provides to detect about the pneumonia disease as like the patient is suffering from it or not. 
+* Also it is easier way to know about the disease in a very short time period in some second. Also as we are suffering from lot of diseases know a days and a huge traffic around the hospital. 
+* So by this web application the time will be saved and one can start it's treatment immediately about the severe disease pneumonia. This application can be used by anyone easily. 
+* The Purpose of this application is to detect the pneumonia disease easily by having xray of the lungs. Also a time saving purpose. 
+
+
+
+# Cloning Repositories
+
+
+
+
+
+# / Frontend /
+
+1. Git Clone Project 
+ ```sh
+https://github.com/aviraj0010/python-frontend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Packages install
+```sh 
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Server run 
+```sh
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+# Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Priyanshu Bhavsar -
+  priyanshubhavsar297@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Avirajsinh Chudasama -   avirajsinh0010@gmail.com  
+
+
+
+
+
+
