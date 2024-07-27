@@ -16,7 +16,7 @@
 
 
 
-# / Frontend /
+# / Getting Start /
 
 1. Git Clone Project 
  ```sh
