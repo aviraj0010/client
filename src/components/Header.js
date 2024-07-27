@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/globals.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Header = () => {
@@ -10,9 +11,9 @@ const Header = () => {
         <Image src="/logo.png" alt="Logo" width={200} height={300} />
       </div>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   )
